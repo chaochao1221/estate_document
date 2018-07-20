@@ -32,5 +32,5 @@ PAYLOAD:
 ```
 Signature示例:
 ```
-	Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiJhZG1pbiIsInVzZXJfaWQiOjUsImdyb3VwX2lkIjoxLCJleHAiOjE0NzcwMzEwMjh9.FIuwxgYO52Zjw5up5h2q71cs3vdEiSsd63g7GUEE1-8
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX3R5cGUiOiJhZG1pbiIsInVzZXJfaWQiOjUsImdyb3VwX2lkIjoxLCJleHAiOjE0NzcwMzEwMjh9.FIuwxgYO52Zjw5up5h2q71cs3vdEiSsd63g7GUEE1-8
 ```
