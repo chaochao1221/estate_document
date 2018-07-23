@@ -24,9 +24,9 @@ PAYLOAD:
 ```
 {
     "application": "estate" // 应用
-    "group_id": 1,          // 公司id(1:本部 2:中国 3:日本)
+    "group_id": 1,          // 分组id(1:本部 2:中国 3:日本)
+    "user_id": 1,           // 用户id
     "user_type": 1,         // 用户类型(1:主管 0:普通销售)
-    "user_id": 5,           // 用户id
     "exp": 1477031028       // 过期时间(目前为签发起24小时)
 }
 ```
