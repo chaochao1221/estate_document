@@ -12,7 +12,6 @@
 |:------:|:----:|:----:|:------|
 | email  | true | char | 邮箱 |
 | password | true | char | 密码 |
-| group_id | true | int | 分组id(1:本部 2:中国 3:日本) |
 
 ##响应:
 | 名称  | 类型  | 说明 |
