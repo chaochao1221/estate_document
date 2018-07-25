@@ -7,14 +7,12 @@
 ##是否需要授权
 否
 
-关于授权，参见 [接口规范][1]
-
 ##参数:
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
 | estate_code | false | char | 房源编码 |
 | listorder | false | int | 排序方式（0:最新 1:面积 2:价格） |
-| screen_json | false | int | 筛选json，参见一下示例（需严格按照示例json字段类型传参）： |
+| screen_json | false | int | 筛选json，参见以下示例（需严格按照示例json字段类型传参）： |
 | per_page | false | int | 每页显示数量（默认为10）|
 | last_id  | false | int | 当前页面最后一条数据id（第一次进来默认传0） |
 
@@ -43,20 +41,25 @@ screen_json={
 
 // Status Codes 200 成功返回
 {
-    "data":{
+    "data": {
         "list": [
             {
-                "estate_name": "东京都中野公寓",   // 房源名称
-                "room_number": "2室1厅",         // 几室几厅
-                "measure_area": "95.31",        // 面积
+                "estate_id": 1,                 // 房源id
                 "region_name": "东京都",         // 地区名称
+                "area_name": "中野",             // 区域名称
+                "room_number": 2,               // 房间数量
+                "exist_living_room": 1,         // 是否存咋客厅（1:是 0:否）
+                "exist_dining_room": 1,         // 是否存在饭厅（1:是 0:否）
+                "exist_kitchen": 1,             // 是否存咋厨房（1:是 0:否）
+                "measure_area": "95.31",        // 面积
                 "housing_type": 1,              // 房屋类型（1:普通公寓 2:公寓 3:一户建 4:别墅 5:民宿 6:简易旅馆 0:其他）
                 "price": "8580.0",              // 价格（日元）
                 "price_rmb": "492"              // 价格（人名币）
-            }
+            },
+            ...
         ],
         "pagenation": {
-            "last_id": 31            // 本页最后一条数据id，如果为-1则表示当前页为最后一页
+            "last_id": 31   // 本页最后一条数据id，如果为-1则表示当前页为最后一页
         }
     },
     "code": 0,
