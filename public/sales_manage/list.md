@@ -20,13 +20,15 @@
 // Status Codes 200 成功返回
 {
     "data":{
-        {
-            "user_id": 1,                   // 用户id
-            "name": "丁超",                  // 姓名
-            "email": "934234902@qq.com",    // 邮箱
-            "add_time": "2018-07-26"        // 添加时间
-        },
-        ...
+        "list": [
+            {
+                "user_id": 1,                   // 用户id
+                "name": "丁超",                  // 姓名
+                "email": "934234902@qq.com",    // 邮箱
+                "add_time": "2018-07-26"        // 添加时间
+            },
+            ...
+        ]
     },
     "code": 0,
     "msg": "success"
