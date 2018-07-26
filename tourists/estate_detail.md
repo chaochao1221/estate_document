@@ -1,6 +1,6 @@
 #游客-房源详情
 
-####URL：/v1/tourists/estast_detail
+####URL：/v1/tourists/estate_detail
 
 ##请求方式：GET
 
