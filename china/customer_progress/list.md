@@ -15,6 +15,8 @@
 | keyword | false | char | 关键字检索 |
 | status  | false | int | 状态（1:未对接 2:对接中 3:未赴日 4:已赴日 5:未成约 6:已成约 7:未付款 8:已付款 9:无贷款 10:已贷款），不传默认显示全部 |
 | user_id | false | int | 销售用户id |
+| per_page | false | int | 每页显示数量（默认为10）|
+| last_id  | false | int | 当前页面最后一条数据id（第一次进来默认传0） |
 
 ##响应:
 | 名称  | 类型  | 说明 |
@@ -38,7 +40,10 @@
                 "add_time": "2018-07-28"    // 添加时间
             },
             ...
-        ]
+        ],
+        "pagenation": {
+            "last_id": 31   // 本页最后一条数据id，如果为-1则表示当前页为最后一页
+        }
     },
     "code": 0,
     "msg": "success"
