@@ -37,6 +37,7 @@
 - [日本中介](japan/index.md)
   - [房源进展](japan/estate_progress.md)
 - [本部中介](base/index.md)
+  - [日期列表](base/date_list.md)
   - [销售业绩](base/sales_achievement.md)
   - [中介费用统计](base/sales_profit/index.md)
     - [列表](base/sales_profit/list.md)
