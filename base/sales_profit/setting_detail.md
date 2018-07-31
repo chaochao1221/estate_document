@@ -27,12 +27,12 @@
     "data": {
         "price": 9800,              // 销售额
         "agency_fee": 648,          // 中介费
-        "seller": { // 卖家
+        "buyer": {  // 买家
             "service_fee": 3,       // 手续费
             "fixed_fee": 60000,     // 固定费
             "excise_fee": "1.08"    // 消费税
         },
-        "buyer": {  // 买家
+        "seller": { // 卖家
             "service_fee": 3,
             "fixed_fee": 60000,
             "excise_fee": "1.08"
