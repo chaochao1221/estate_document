@@ -1,6 +1,6 @@
-#中国中介-客户进展-列表
+#本部中介-客户管理-列表
 
-####URL：/v1/china/customer_progress/list
+####URL：/v1/base/customer_manage/list
 
 ##请求方式：GET
 
@@ -12,9 +12,10 @@
 ##参数:
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
-| keyword | false | char | 关键字检索 |
-| status  | false | int | 状态（1:未对接 2:对接中 3:未赴日 4:已赴日 5:未成约 6:已成约 7:未付款 8:已付款 9:无贷款 10:已贷款），不传默认显示全部 |
-| user_id | false | int | 销售用户id |
+| keyword  | false | char| 搜索关键字 |
+| sales_id | false | int | 本部销售id，不传默认显示全部 |
+| source_id| false | int | 中国中介公司id，不传默认显示全部 |
+| status   | false | int | 状态（1:未对接 2:对接中 3:未赴日 4:已赴日 5:未成约 6:已成约 7:未付款 8:已付款 9:无贷款 10:已贷款），不传默认显示全部 |
 | per_page | false | int | 每页显示数量（默认为10）|
 | last_id  | false | int | 当前页面最后一条数据id（第一次进来默认传0） |
 
@@ -32,11 +33,10 @@
         "list": [
             {
                 "id": 1,                    // 推荐id
-                "estate_id": 1,             // 房产id
-                "name": "丁超",              // 姓名
-                "wechat": "dingchao",       // 微信号
-                "sex": 1,                   // 性别
-                "add_time": "2018-07-28",   // 添加时间
+                "name": "张亮",              // 姓名
+                "sex": 1,                   // 性别（0:女 1:男）
+                "wechat": "zl",             // 微信号
+                "add_time": "2018-07-31",   // 添加时间
                 "is_butt": 0,               // 是否对接（1:是 0:否）
                 "is_to_japan": 0,           // 是否赴日（1:是 0:否）
                 "is_agree": 0,              // 是否成约（1:是 0:否）

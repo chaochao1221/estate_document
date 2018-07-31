@@ -1,6 +1,6 @@
-#公用-销售管理-列表
+#本部中介-中国中介管理-地区列表
 
-####URL：/v1/public/sales_manage/list
+####URL：/v1/base/china_manage/region_list
 
 ##请求方式：GET
 
@@ -19,14 +19,12 @@
 ```
 // Status Codes 200 成功返回
 {
-    "data":{
+    "data": {
         "list": [
             {
-                "user_id": 1,                   // 用户id
-                "name": "丁超",                  // 姓名
-                "email": "934234902@qq.com",    // 邮箱
-                "add_time": "2018-07-26",       // 添加时间
-                "mark": 1                       // 标记本部中介是否已分配客户（1:是 0:否）
+                "region_id": 1,          // 地区id
+                "region_name": "江苏",    // 地区名称
+                "mark": 1                // 标记该地区下是否存在公司（1:存在 0:不存在）
             },
             ...
         ]
