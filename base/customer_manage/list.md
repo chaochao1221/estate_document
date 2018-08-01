@@ -13,7 +13,7 @@
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
 | keyword  | false | char| 搜索关键字 |
-| sales_id | false | int | 本部销售id，不传默认显示全部 |
+| user_id  | false | int | 本部销售用户id，不传默认显示全部 |
 | company_id| false | int | 中国中介公司id，不传默认显示全部 |
 | status   | false | int | 状态（1:未对接 2:对接中 3:未赴日 4:已赴日 5:未成约 6:已成约 7:未付款 8:已付款 9:无贷款 10:已贷款），不传默认显示全部 |
 | per_page | false | int | 每页显示数量（默认为10）|
