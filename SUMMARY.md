@@ -60,6 +60,7 @@
     - [添加/编辑](base/china_manage/add.md)
     - [删除](base/china_manage/del.md)
   - [客户管理](base/customer_manage/index.md)
+    - [来源列表](base/customer_manage/source_list.md)
     - [列表](base/customer_manage/list.md)
     - [详情](base/customer_manage/detail.md)
     - [编辑](base/customer_manage/edit.md)
