@@ -14,7 +14,7 @@
 |:------:|:----:|:----:|:------|
 | service_fee | true | int | 手续费 |
 | fixed_fee | true | int | 固定费 |
-| excise_fee | true | int | 消费税 |
+| excise_fee | true | char | 消费税 |
 
 ##响应:
 | 名称  | 类型  | 说明 |

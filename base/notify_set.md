@@ -19,6 +19,9 @@
 ```
 // Status Codes 201 成功返回
 {
+    "data": {
+        "is_notified": 1,   // 是否通知（1:是 0:否）
+    },
     "code": 0,
     "msg": "success"
 }
