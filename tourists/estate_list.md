@@ -11,8 +11,8 @@
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
 | keyword | false | char | 搜索关键字 |
-| listorder | false | int | 排序方式（0:最新 1:面积 2:价格） |
-| screen_json | false | int | 筛选json，参见以下示例（需严格按照示例json字段类型传参）： |
+| listorder | false | int | 排序方式（0:最新 1:面积正序 2:面积倒序 3:价格正序 4:价格倒序） |
+| screen_json | false | char | 筛选json，参见以下示例（需严格按照示例json字段类型传参）： |
 | per_page | false | int | 每页显示数量（默认为10）|
 | last_id  | false | int | 当前页面最后一条数据id（第一次进来默认传0） |
 
@@ -27,8 +27,8 @@
 screen_json={
     "region_id": 1          // 地区id 
     "area_id": 2,           // 区域id 
-    "price_min": "200",     // 最低售价
-    "price_max": "400",     // 最高售价
+    "price_min": 200,       // 最低售价
+    "price_max": 400,       // 最高售价
     "area_min": "40.15",    // 最小面积
     "area_max": "50.15",    // 最大面积
     "room_number": 1,       // 房间数量（1:一室 2:二室 3:三室 4:四室 5:五室 6:五室以上）

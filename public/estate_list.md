@@ -13,8 +13,8 @@
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
 | keyword | false | char | 搜索关键字 |
-| listorder | false | int | 排序方式（0:最新 1:面积 2:价格） |
-| screen_json | false | int | 筛选json，参见以下示例（需严格按照示例json字段类型传参）： |
+| listorder | false | int | 排序方式（0:最新 1:面积正序 2:面积倒序 3:价格正序 4:价格倒序） |
+| screen_json | false | char | 筛选json，参见以下示例（需严格按照示例json字段类型传参）： |
 | status | false | int | 0:全部 1:我的 2:已下架 3:已成交 |
 | per_page | false | int | 每页显示数量（默认为10）|
 | last_id  | false | int | 当前页面最后一条数据id（第一次进来默认传0） |
