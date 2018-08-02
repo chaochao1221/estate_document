@@ -26,17 +26,14 @@
 {
     "data": {
         "estate_id": 1,                 // 房源id
+        "estate_name": "东京都中野公寓",  // 房源名称
         "estate_code": "201807230666",  // 房源编码
-        "region_name": "东京都",         // 地区名称
-        "area_name": "中野",             // 区域名称
-        "room_number": 2,               // 房间数量
-        "exist_living_room": 1,         // 是否存咋客厅（1:是 0:否）
-        "exist_dining_room": 1,         // 是否存在饭厅（1:是 0:否）
-        "exist_kitchen": 1,             // 是否存咋厨房（1:是 0:否）
-        "measure_area": "95.31",        // 面积
-        "housing_type": 1,              // 房屋类型（1:普通公寓 2:公寓 3:一户建 4:别墅 5:民宿 6:简易旅馆 0:其他）
         "price": "8580.0",              // 价格（日元）
         "price_rmb": "492",             // 价格（人名币）
+        "huxing": "1LDK",               // 户型
+        "huxing_alias": "1室2厅",        // 户型别名
+        "measure_area": "95.31",        // 面积
+        "housing_type": 1,              // 房屋类型（1:普通公寓 2:公寓 3:一户建 4:别墅 5:民宿 6:简易旅馆 0:其他）
         "land_rights": 1,               // 土地权利（1:土地所有权 2:土地租借权）
         "building_time": "1998年6月",    // 建筑年月
         "floor": 6,                     // 楼层
@@ -47,7 +44,8 @@
         "state": 1,                     // 现状（1:空置 2:出租中 3:运营中）
         "rent": 60000,                  // 租金
         "return_rate": "3.5",           // 回报率
-        "manage_fee": 29540             // 管理费
+        "manage_fee": 29540,            // 管理费
+        "region_name": "东京都-中野区",   // 地区名称
     },
     "code": 0,
     "msg": "success"
