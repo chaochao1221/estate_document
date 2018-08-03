@@ -44,6 +44,9 @@
         "return_rate": "3.5",           // 回报率
         "manage_fee": 29540,            // 管理费
         "region_name": "东京都-中野区",   // 地区名称
+        "address": "",                  // 地址
+        "traffic": "",                  // 交通
+        "picture": ""                   // 图片
     },
     "code": 0,
     "msg": "success"
