@@ -1,6 +1,6 @@
 #本部中介-客户管理-删除
 
-####URL：/v1/base/customer_manage/del
+####URL：/v1/base/customer_manage/del/:id
 
 ##请求方式：DELETE
 

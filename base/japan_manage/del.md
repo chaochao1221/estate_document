@@ -1,6 +1,6 @@
 #本部中介-日本中介管理-删除
 
-####URL：/v1/base/japan_manage/del
+####URL：/v1/base/japan_manage/del/:id
 
 ##请求方式：DELETE
 

@@ -1,6 +1,6 @@
 #中国中介-客户进展-删除
 
-####URL：/v1/china/customer_progress/del
+####URL：/v1/china/customer_progress/del/:id
 
 ##请求方式：DELETE
 

@@ -1,6 +1,6 @@
 #公用-销售管理-删除
 
-####URL：/v1/public/sales_manage/del
+####URL：/v1/public/sales_manage/del/:user_id
 
 ##请求方式：DELETE
 

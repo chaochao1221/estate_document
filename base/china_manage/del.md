@@ -1,6 +1,6 @@
 #本部中介-中国中介管理-删除
 
-####URL：/v1/base/china_manage/del
+####URL：/v1/base/china_manage/del/:id
 
 ##请求方式：DELETE
 

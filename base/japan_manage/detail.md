@@ -32,7 +32,7 @@
         "telephone": "90123467",    // 联系电话
         "fax": "987654321",         // 传真
         "email": "sjs",             // 邮箱
-        "expiry_date": "2018-11-10" // 过期时间
+        "expiry_date": "2018/11/10" // 过期时间
     },
     "code": 0,
     "msg": "success"

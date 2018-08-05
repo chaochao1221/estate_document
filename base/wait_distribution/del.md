@@ -1,6 +1,6 @@
 #本部中介-待分配客户-删除
 
-####URL：/v1/base/wait_distribution/del
+####URL：/v1/base/wait_distribution/del/:id
 
 ##请求方式：DELETE
 

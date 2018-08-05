@@ -1,6 +1,6 @@
 #公用-房源管理-删除
 
-####URL：/v1/public/estate_manage/del
+####URL：/v1/public/estate_manage/del/:estate_id
 
 ##请求方式：DELETE
 
