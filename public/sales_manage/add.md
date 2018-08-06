@@ -15,7 +15,7 @@
 | user_id | false | int | 用户id（新建不传，编辑必传） |
 | name  | true | char | 姓名 |
 | email | true | char | 邮箱 |
-| password | true | char | 密码 |
+| password | false | char | 密码 |
 
 ##响应:
 | 名称  | 类型  | 说明 |
