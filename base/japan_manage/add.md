@@ -15,11 +15,12 @@
 | id | false | int | 会社id（添加不传，编辑必传）|
 | company_name | true | char | 会社名称 |
 | address | true | char | 会社地址 |
+| user_id | false | int | 联系人姓名id（添加不传，编辑必传）|
 | user_name | true | char | 联系人姓名 |
 | telephone | true | char | 联系电话 |
 | fax | true | char | 传真 |
 | email | true | char | 邮箱 |
-| password | false | char | 密码 |
+| password | false | char | 密码（添加必传，编辑非必传）|
 | expiry_date | true | char | 过期时间 |
 
 ##响应:

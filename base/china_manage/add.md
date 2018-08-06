@@ -16,11 +16,12 @@
 | region_id | true | int | 地区id |
 | company_name | true | char | 中介公司名称 |
 | address | true | char | 中介公司地址 |
+| user_id | false | int | 联系人姓名id（添加不传，编辑必传）|
 | user_name | true | char | 联系人姓名 |
 | telephone | true | char | 联系电话 |
 | fax | true | char | 传真 |
 | email | true | char | 邮箱 |
-| password | false | char | 密码 |
+| password | false | char | 密码（添加必传，编辑非必传）|
 
 ##响应:
 | 名称  | 类型  | 说明 |
