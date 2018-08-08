@@ -13,7 +13,11 @@
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
 | keyword | false | char | 关键字检索 |
-| status  | false | int | 状态（1:未对接 2:对接中 3:未赴日 4:已赴日 5:未成约 6:已成约 7:未付款 8:已付款 9:无贷款 10:已贷款），不传默认显示全部 |
+| is_butt | false | int | 是否对接（1:是 0:否）|
+| is_to_japan | false | int | 是否赴日（1:是 0:否）|
+| is_agree | false | int | 是否成约（1:是 0:否）|
+| is_pay | false | int | 是否付款（1:是 0:否）|
+| is_loan | false | int | 是否贷款（1:是 0:否）|
 | user_id | false | int | 销售用户id |
 | per_page | false | int | 每页显示数量（默认为10）|
 | last_id  | false | int | 当前页面最后一条数据id（第一次进来默认传0） |
