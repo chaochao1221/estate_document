@@ -1,6 +1,6 @@
-#本部中介-待分配客户-列表
+#本部中介-我的通知-列表
 
-####URL：/v1/base/wait_distribution/list
+####URL：/v1/base/notify/list
 
 ##请求方式：GET
 
@@ -12,7 +12,7 @@
 ##参数:
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
-| recommend_id | false | int | 推荐id（从我的通知点击过来必传，其他不传）|
+| status | false  | int | 通知状态（1:未读 2:已读 0:全部 默认0）|
 | per_page | false | int | 每页显示数量（默认为10）|
 | last_id  | false | int | 当前页面最后一条数据id（第一次进来默认传0） |
 
@@ -27,14 +27,19 @@
 // Status Codes 200 成功返回
 {
     "data": {
+        "unread_number": 10,                        // 未读数量
         "list": [
             {
-                "id": 1,                // 推荐id
-                "name": "方圣豪",        // 姓名
-                "sex": 1,               // 性别（0:女 1:男）
-                "wechat": "fsh",        // 微信
-                "source": "安居客",      // 来源
-                "add_time": "2018/07/30"// 添加时间
+                "id": 1,                            // 通知id
+                "recommend_id": 1,                  // 推荐id
+                "name": "收到新的推荐客户",            // 通知名称
+                "add_time": "2018-08-05 09:00:01"   // 添加时间
+            },
+            {
+                "id": 2,
+                "recommend_id": 2,
+                "name": "收到新的咨询客户",
+                "add_time": "2018-08-05 09:00:00"
             },
             ...
         ],
