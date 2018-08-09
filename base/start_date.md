@@ -1,6 +1,6 @@
-#本部中介-日期列表
+#本部中介-起始日期
 
-####URL：/v1/base/date_list
+####URL：/v1/base/start_date
 
 ##请求方式：GET
 
@@ -20,7 +20,7 @@
 // Status Codes 200 成功返回
 {
     "data": {
-        "add_time": ["2018-05", "2018-04"]   // 日期数组
+        "add_time": "2018-05"   // 起始日期
     },
     "code": 0,
     "msg": "success"
