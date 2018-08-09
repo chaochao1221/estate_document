@@ -12,7 +12,7 @@
 ##参数:
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
-| recommend_id | false | int | 推荐id（从我的通知点击过来必传，其他不传）|
+| notice_id | false | int | 我的通知id（从我的通知点击过来必传，其他不传）|
 | keyword  | false | char| 搜索关键字 |
 | user_id  | false | int | 本部销售用户id，不传默认显示全部 |
 | company_id| false | int | 中国中介公司id，不传默认显示全部 |
