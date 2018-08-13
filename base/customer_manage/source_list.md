@@ -22,6 +22,10 @@
     "data": {
         "list": [
             {
+                "company_id": -1,           // 中介公司id
+                "company_name": "游客咨询"   // 中介公司名称
+            },
+            {
                 "company_id": 1,            // 中介公司id
                 "company_name": "安居客"     // 中介公司名称
             },
