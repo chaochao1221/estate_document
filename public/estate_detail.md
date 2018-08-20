@@ -28,6 +28,7 @@
         "estate_code": "201807230666",  // 房源编码
         "price": "8580.0",              // 价格（日元）
         "price_rmb": "492",             // 价格（人名币）
+        "points": 3,                    // 点数
         "huxing": "1LDK",               // 户型
         "huxing_alias": "1室2厅",        // 户型别名
         "measure_area": "95.31",        // 面积
@@ -43,6 +44,7 @@
         "rent": 60000,                  // 租金
         "return_rate": "3.5",           // 回报率
         "manage_fee": 29540,            // 管理费
+        "region_id": 1,                 // 地区id
         "region_name": "东京都-中野区",   // 地区名称
         "address": "",                  // 地址
         "traffic": "",                  // 交通
