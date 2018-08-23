@@ -24,8 +24,8 @@
 ###JSON示例:
 ```
 agency_json={
-    "price": 9800,              // 销售额
-    "agency_fee": 648,          // 中介费
+    "price": "9800.10",         // 销售额
+    "agency_fee": "648.10",     // 中介费
     "buyer": { // 买家
         "service_fee": 3,       // 手续费
         "fixed_fee": 60000,     // 固定费

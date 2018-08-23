@@ -22,7 +22,7 @@
 | is_pay  | true | int | 是否付款（1:是 0:否）|
 | is_loan | true | int | 是否贷款（1:是 0:否）|
 | estate_code | true | char | 房源编号 |
-| price | true | int | 实际成交价 |
+| price | true | char | 实际成交价 |
 
 ##响应:
 | 名称  | 类型  | 说明 |

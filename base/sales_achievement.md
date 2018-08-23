@@ -27,13 +27,13 @@
 // Status Codes 200 成功返回
 {
     "data": {
-        "total_price": 568900,          // 合计
+        "total_price": "568900:10",     // 合计
         "list": [
             {
                 "id": 1,                // 销售用户id
                 "name": "方圣豪",        // 姓名
                 "count": 1,             // 单数
-                "total_price": 9800     // 总额
+                "total_price": "9800.10"// 总额
             },
             ...
         ],

@@ -13,7 +13,7 @@
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
 | estate_id | false | int | 房源id（新建不传，编辑必传）|
-| price | true | int | 价格 |
+| price | true | char | 价格 |
 | points | true | int | 点数 |
 | huxing | true | char | 户型 |
 | measure_area | true | string | 面积 |
@@ -25,10 +25,10 @@
 | land_rights | true | int | 土地权利（1:土地所有权 2:土地租借权）|
 | orientation | true | string | 朝向 |
 | state | true | int | 现状（1:空置 2:出租中 3:运营中）|
-| rent | true | int | 租金 |
+| rent | true | char | 租金 |
 | return_rate | true | string | 回报率 |
-| repair_fee | true | int | 修缮费 |
-| manage_fee | true | int | 管理费 |
+| repair_fee | true | char | 修缮费 |
+| manage_fee | true | char | 管理费 |
 | region_id | true | int | 地区id |
 | traffic | true | char | 交通 |
 | address | true | char | 地址 |
