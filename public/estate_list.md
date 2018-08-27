@@ -49,6 +49,7 @@ screen_json={
             {
                 "estate_id": 1,                 // 房源id
                 "estate_name": "东京都中野公寓",  // 房源名称
+                "picture": "",                  // 图片
                 "huxing": "1LDK",               // 户型
                 "huxing_alias": "1室2厅",        // 户型别名
                 "measure_area": "95.31",        // 面积
