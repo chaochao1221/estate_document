@@ -44,10 +44,10 @@
         "rent": "60000.10",             // 租金
         "return_rate": "3.5",           // 回报率
         "manage_fee": "29540.10",       // 管理费
-        "region_id": 1,                 // 市id
-        "area_id": 2,                   // 区id
-        "region_name": "东京都",         // 市名称
-        "area_name": "千代田区",         // 区名称
+        "region_id": 1,                 // 地区id
+        "area_id": 2,                   // 区域id
+        "region_name": "东京都",         // 地区名称
+        "area_name": "千代田区",         // 区域名称
         "traffic": [                    // 交通
             {
                 "traffic_id": 1,            // 线路id

@@ -29,8 +29,8 @@
 | return_rate | true | string | 回报率 |
 | repair_fee | true | char | 修缮费 |
 | manage_fee | true | char | 管理费 |
-| region_id | true | int | 市id |
-| area_id | true | int | 区id |
+| region_id | true | int | 地区id |
+| area_id | true | int | 区域id |
 | traffic | true | char | 交通json |
 | address | true | char | 地址 |
 | picture | true | char | 图片地址（多张用逗号分割）|
