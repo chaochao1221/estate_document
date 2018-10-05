@@ -29,10 +29,11 @@
 | return_rate | true | string | 回报率 |
 | repair_fee | true | char | 修缮费 |
 | manage_fee | true | char | 管理费 |
-| region_id | true | int | 地区id |
-| traffic | true | char | 交通 |
+| region_id | true | int | 市id |
+| area_id | true | int | 区id |
+| traffic | true | char | 交通json |
 | address | true | char | 地址 |
-| picture | true | char | 图片 |
+| picture | true | char | 图片地址（多张用逗号分割）|
 
 ##响应:
 | 名称  | 类型  | 说明 |
@@ -42,6 +43,16 @@
 
 ###JSON示例:
 ```
+traffic=[
+	{
+		"traffic_id": 1,            // 线路id
+		"traffic_name": "线路1",     // 线路名称
+		"station_id: 2,             // 站点id
+		"station_name": "赤坂站",    // 站点名称
+		"time": "12"				// 时间（分钟）
+	}
+]
+
 // Status Codes 201 成功返回
 {
     "code": 0,

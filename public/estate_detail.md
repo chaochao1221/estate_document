@@ -44,11 +44,22 @@
         "rent": "60000.10",             // 租金
         "return_rate": "3.5",           // 回报率
         "manage_fee": "29540.10",       // 管理费
-        "region_id": 1,                 // 地区id
-        "region_name": "东京都-中野区",   // 地区名称
+        "region_id": 1,                 // 市id
+        "area_id": 2,                   // 区id
+        "region_name": "东京都",         // 市名称
+        "area_name": "千代田区",         // 区名称
+        "traffic": [                    // 交通
+            {
+                "traffic_id": 1,            // 线路id
+                "traffic_name": "线路1",     // 线路名称
+                "station_id: 2,             // 站点id
+                "station_name": "赤坂站",    // 站点名称
+                "time": "12"                // 时间（分钟）
+            },
+            ...
+        ],
         "address": "",                  // 地址
-        "traffic": "",                  // 交通
-        "picture": ""                   // 图片
+        "picture": ""                   // 图片地址（多张用逗号分割）
     },
     "code": 0,
     "msg": "success"
