@@ -52,7 +52,7 @@
             {
                 "traffic_id": 1,            // 线路id
                 "traffic_name": "线路1",     // 线路名称
-                "station_id: 2,             // 站点id
+                "station_id": 2,             // 站点id
                 "station_name": "赤坂站",    // 站点名称
                 "time": "12"                // 时间（分钟）
             },
