@@ -23,9 +23,9 @@
     "data": {
         "list": [
             {
-                "area_id": 1,
-                "area_name": "东京",
-                "estate_number": 1056
+                "area_id": 1,           // 地区id
+                "area_name": "东京",     // 地区名称
+                "estate_number": 1056   // 房源数量
             },
             ...
         ]
