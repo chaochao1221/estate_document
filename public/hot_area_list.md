@@ -25,7 +25,8 @@
             {
                 "area_id": 1,           // 地区id
                 "area_name": "东京",     // 地区名称
-                "estate_number": 1056   // 房源数量
+                "estate_number": 1056,  // 房源数量
+                "pic_key": ""           // logo图片地址
             },
             ...
         ]
