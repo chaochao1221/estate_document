@@ -59,6 +59,8 @@
             ...
         ],
         "address": "",                  // 地址
+        "longitude": "",                // 经度
+        "latitude": "",                 // 纬度
         "picture": ""                   // 图片地址（多张用逗号分割）
     },
     "code": 0,

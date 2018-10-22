@@ -33,6 +33,8 @@
 | area_id | true | int | 区域id |
 | traffic | true | char | 交通json |
 | address | true | char | 地址 |
+| longitude | true | char | 经度 |
+| latitude  | true | char | 纬度 |
 | picture | true | char | 图片地址（多张用逗号分割）|
 
 ##响应:
