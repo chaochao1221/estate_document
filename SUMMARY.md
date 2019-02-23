@@ -84,3 +84,7 @@
     - [删除](base/notify/del.md)
     - [标为已读](base/notify/marked_as_read.md)
   - [日期列表](base/date_list.md)
+  - [排行榜](base/ranking/index.md)
+    - [日期列表](base/ranking/date_list.md)
+    - [排行榜列表](base/ranking/list.md)
+  - [成交记录](base/deal_record.md)
