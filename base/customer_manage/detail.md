@@ -35,7 +35,15 @@
         "is_pay": 0,                // 是否付款（1:是 0:否）
         "is_loan": 0,               // 是否贷款（1:是 0:否）
         "estate_code": "SN12345",   // 房源编号
-        "price": "15000.10"         // 实际成交价
+        "price": "15000.10",        // 实际成交价
+        "telephone": "",            // 手机号
+        "loan_time_1": "",          // 仮審査
+        "loan_time_2": "",          // 契約
+        "loan_time_3": "",          // 本審査
+        "loan_time_4": "",          // 金消
+        "loan_time_5": "",          // 適合
+        "loan_time_6": "",          // 決済
+        "remark": ""                // 备注
     },
     "code": 0,
     "msg": "success"

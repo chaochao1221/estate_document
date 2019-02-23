@@ -23,6 +23,14 @@
 | is_loan | true | int | 是否贷款（1:是 0:否）|
 | estate_code | true | char | 房源编号 |
 | price | true | char | 实际成交价 |
+| telephone | false | char | 手机号 |
+| loan_time_1 | false | char | 仮審査 |
+| loan_time_2 | false | char | 契約 |
+| loan_time_3 | false | char | 本審査 |
+| loan_time_4 | false | char | 金消 |
+| loan_time_5 | false | char | 適合 |
+| loan_time_6 | false | char | 決済 |
+| remark | false | char | 备注 |
 
 ##响应:
 | 名称  | 类型  | 说明 |
