@@ -36,7 +36,9 @@
             "service_fee": 3,
             "fixed_fee": 60000,
             "excise_fee": "1.08"
-        }
+        },
+        "commission": "66.00",      // 佣金
+        "settling_time": "2019-01-02 08:08" // 结算时间
     },
     "code": 0,
     "msg": "success"

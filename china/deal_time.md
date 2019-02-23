@@ -1,21 +1,13 @@
-#中国中介-推荐
+#中国中介-成交时间
 
-####URL：/v1/china/recommend
+####URL：/v1/china/deal_time
 
-##请求方式：POST
+##请求方式：GET
 
 ##是否需要授权
 是
 
 关于授权，参见 [接口规范][1]
-
-##参数:
-| 名称 | 必选 | 类型 | 说明 |
-|:------:|:----:|:----:|:------|
-| estate_id | false | int | 房源id |
-| name | true | char | 姓名 |
-| wechat | true | char | 微信号 |
-| sex | true | int | 性别（0:女 1:男） |
 
 ##响应:
 | 名称  | 类型  | 说明 |
@@ -25,8 +17,16 @@
 
 ###JSON示例:
 ```
-// Status Codes 201 成功返回
+// Status Codes 200 成功返回
 {
+    "data": {
+        "list": [
+            {
+                "deal_time": "2019-01"  // 成交时间
+            },
+            ...
+        ]
+    },
     "code": 0,
     "msg": "success"
 }

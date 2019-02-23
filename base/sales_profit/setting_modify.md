@@ -35,7 +35,8 @@ agency_json={
         "service_fee": 3,
         "fixed_fee": 60000,
         "excise_fee": "1.08"
-    }
+    },
+    "commission": "66.00"       // 佣金
 }
 
 // Status Codes 201 成功返回
