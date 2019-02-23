@@ -16,6 +16,7 @@
 | name  | true | char | 姓名 |
 | email | true | char | 邮箱 |
 | password | false | char | 密码 |
+| telephone | false | char | 手机号 |
 
 ##响应:
 | 名称  | 类型  | 说明 |

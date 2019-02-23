@@ -28,6 +28,7 @@
         "user_id": 1,                   // 用户id
         "name": "丁超",                  // 姓名
         "email": "934234902@qq.com",    // 邮箱
+        "telephone": "18262286921"		// 手机号
     },
     "code": 0,
     "msg": "success"
