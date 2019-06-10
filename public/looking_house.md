@@ -11,6 +11,7 @@
 | 名称 | 必选 | 类型 | 说明 |
 |:------:|:----:|:----:|:------|
 | function_id | true | int | 功能id（0:首页 1:购房知识） |
+| function_type | true | int | 功能分类（1:同类问题 2:重选分类）|
 
 ##响应:
 | 名称  | 类型  | 说明 |
@@ -25,15 +26,17 @@
     "data": {
         "message_type": 0,          // 消息类型（0:普通消息；1:房源消息）
         "message_name": ["", ""],   // 消息名称
-        "exist_child": 1,           // 是否存在子层（1:是 0:否）
+        "show_type": 1,             // 显示类型（1:确定/取消 2:找房/电话咨询/更多问题）
         "function": [
             {
                 "function_id": 1,           // 功能id
-                "function_name": "找房"     // 功能名称
+                "function_name": "找房",    // 功能名称
+                "is_looking_house": 1       // 是否找房（1:是 0:否）
             },
             {
                 "function_id": 2,
-                "function_name": "购房知识"
+                "function_name": "购房知识",
+                "is_looking_house": 0
             }
         ]
     },
