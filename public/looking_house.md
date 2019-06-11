@@ -24,7 +24,7 @@
 // Status Codes 200 成功返回
 {
     "data": {
-        "message_type": 0,          // 消息类型（0:普通消息；1:房源消息）
+        "function_type": 0,         // 功能类型（0:底部显示；1:弹框显示）
         "message_name": ["", ""],   // 消息名称
         "show_type": 1,             // 显示类型（1:确定/取消 2:找房/电话咨询/更多问题）
         "function": [
