@@ -72,7 +72,10 @@
         "exist_elevotar": 1,            // 是否存在电梯（1:是 0:否）
         "manage_style": 1,              // 管理方式（1:自主管理 2:巡回管理 3:长勤管理）
         "exist_parking": 1,             // 是否存在停车场（1:是 0:否）
-        "visit_number": 1               // 访问量
+        "visit_number": 1,              // 访问量
+        "balcony_measure": "",          // 阳台面积
+        "households": 20,               // 总户数
+        "item_type": 1                  // 物件类型（1:公寓 2:土地 3:别墅 4:整栋物件）
     },
     "code": 0,
     "msg": "success"

@@ -46,6 +46,9 @@
 | exist_elevotar | false | int | 是否存在电梯（1:是 0:否）|
 | manage_style | false | int | 管理方式（1:自主管理 2:巡回管理 3:长勤管理）|
 | exist_parking | false | int | 是否存在停车场（1:是 0:否）|
+| balcony_measure | false | string | 阳台面积 |
+| households | false | int | 总户数 |
+| item_type | true | int | 物件类型（1:公寓 2:土地 3:别墅 4:整栋物件）|
 
 ##响应:
 | 名称  | 类型  | 说明 |
