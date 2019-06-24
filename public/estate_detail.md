@@ -75,7 +75,8 @@
         "visit_number": 1,              // 访问量
         "balcony_measure": "",          // 阳台面积
         "households": 20,               // 总户数
-        "item_type": 1                  // 物件类型（1:公寓 2:土地 3:别墅 4:整栋物件）
+        "item_type": 1,                 // 物件类型（1:公寓 2:土地 3:别墅 4:整栋物件）
+        "unit_price": "100"             // 平米单价
     },
     "code": 0,
     "msg": "success"

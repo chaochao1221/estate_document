@@ -49,6 +49,7 @@
 | balcony_measure | false | string | 阳台面积 |
 | households | false | int | 总户数 |
 | item_type | true | int | 物件类型（1:公寓 2:土地 3:别墅 4:整栋物件）|
+| unit_price | false | string | 平米单价 |
 
 ##响应:
 | 名称  | 类型  | 说明 |
